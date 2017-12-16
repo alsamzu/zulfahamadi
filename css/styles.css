@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 25vmin;
+    top: -30px;
+}
+p{
+    color: white;
+}
+
+a {
+
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+    font-size: 1.2em;
+
+}
+a:hover {
+
+	color: aqua;
+
+}
+nav {
+
+	float: right;
+	padding: 20px;	
+
+}
+a:hover#menu-icon {
+
+	background-color: #fff;
+	border-radius: 4px 4px 0 0;
+
+}
+ul {
+    list-style-type:none;
+    }
+li {
+
+	display: inline-block;
+	float: left;
+	padding: 10px
+
+}
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+    
+    
+}
+#ken{
+    color: white;
+    top:25em;
+   
+}
+#conabo{
+    top: 30em;
+}
