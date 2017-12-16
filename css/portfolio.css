@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+
+p{color: white;}
+
+a {
+
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+    font-size: 1.2em;
+
+}
+a:hover {
+
+	color: aqua;
+
+}
+nav {
+
+	float: right;
+	padding: 20px;	
+
+}
+a:hover#menu-icon {
+
+	background-color: #fff;
+	border-radius: 4px 4px 0 0;
+
+}
+ul {
+    list-style-type:none;
+    }
+li {
+
+	display: inline-block;
+	float: left;
+	padding: 10px
+
+}
