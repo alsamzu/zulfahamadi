@@ -7,8 +7,19 @@ h1{
     position: relative;
     text-align: center;
     font-size: 25vmin;
-    top: -30px;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #4dd0e1, 0 0 30px #4dd0e1, 0 0 40px #4dd0e1, 0 0 55px #4dd0e1, 0 0 75px #4dd0e1;
+    top: 60px;
+    font-family: 'Mukta Malar', sans-serif;
+    
+}
+#hel{
+    top: 15rem;
+}
+#stop{
+    color: deeppink;
+    font-size: 10rem;
+    border-radius: 50%;
+    top: 3rem;
+    left: 4rem;
 }
 p{
     color: white;
