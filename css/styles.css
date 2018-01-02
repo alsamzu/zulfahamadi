@@ -7,8 +7,9 @@ h1{
     position: relative;
     text-align: center;
     font-size: 30vmin;
-    top: 60px;
+    top: 5px;
     font-family: 'Mukta Malar', sans-serif;
+    left: 150px;
     
 }
 #hel{
@@ -19,7 +20,7 @@ h1{
     font-size: 10rem;
     border-radius: 50%;
     top: 3rem;
-    left: 4rem;
+    left: 12rem;
 }
 p{
     color: white;
@@ -35,13 +36,13 @@ a {
 }
 a:hover {
 
-	color: aqua;
+	color:deeppink;
 
 }
 nav {
 
 	float: right;
-	padding: 20px;	
+	padding: 10px;	
 
 }
 a:hover#menu-icon {
@@ -52,6 +53,9 @@ a:hover#menu-icon {
 }
 ul {
     list-style-type:none;
+    display: inline;
+    position: fixed;
+    
     }
 li {
 
@@ -83,6 +87,16 @@ li {
   -webkit-transform:rotate(270deg); /* Safari and Chrome */
   -o-transform:rotate(270deg); /* Opera */
    
+}
+#na{
+     width:-130px;
+    height:200px;
+    bottom: -300px;
+    left: 400px;
+  -ms-transform:rotate(270deg); /* IE 9 */
+  -moz-transform:rotate(270deg); /* Firefox */
+  -webkit-transform:rotate(270deg); /* Safari and Chrome */
+  -o-transform:rotate(270deg); /* Opera */
 }
 #conabo{
     top: 30em;
