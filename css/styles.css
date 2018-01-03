@@ -24,6 +24,22 @@ h1{
     top: 3rem;
     left: 15rem;
 }
+h2{
+    color: white;
+    font-size: 14vmin;
+    top: 50px;
+    text-decoration: line-through;
+    text-decoration-color: deeppink;
+}
+h2:hover{
+    text-decoration: none;
+}
+#sto{
+    color: deeppink;
+    font-size: 8rem;
+top: -15rem;
+    right: 25rem;
+}
 p{
     color: white;
 }
@@ -94,7 +110,7 @@ li {
      width:-130px;
     height:200px;
     bottom: -300px;
-    left: 400px;
+    left: 350px;
   -ms-transform:rotate(270deg); /* IE 9 */
   -moz-transform:rotate(270deg); /* Firefox */
   -webkit-transform:rotate(270deg); /* Safari and Chrome */
