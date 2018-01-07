@@ -4,35 +4,17 @@ body{
 
 h1{
     color: white;
-    position: static;
+    position: relative;
     text-align: right;
     font-size: 16vw;
     top: 20px;
     font-family: 'Anton', sans-serif;
     font-family: 'Bree Serif', serif;
-    
-    
-}
+    }
 
 .color{
     color:deeppink;
     
-}
-h2{
-    color: white;
-    font-size: 14vmin;
-    top: 50px;
-    text-decoration: line-through;
-    text-decoration-color: deeppink;
-}
-h2:hover{
-    text-decoration: none;
-}
-#sto{
-    color: deeppink;
-    font-size: 8rem;
-top: -15rem;
-    right: 25rem;
 }
 p{
     color: white;
@@ -80,12 +62,10 @@ li {
   height: 100%;
   width: 100%;
   display: flex;
-  position: fixed;
+    position: fixed;
   align-items: center;
   justify-content: center;
-    
-    
-}
+    }
 #ken{
     color: white;
     /*top:25em;*/
@@ -93,7 +73,7 @@ li {
     /*transform: rotate(90deg);*/
     width:130px;
     height:300px;
-    bottom: -400px;
+    bottom: -300px;
   -ms-transform:rotate(270deg); /* IE 9 */
   -moz-transform:rotate(270deg); /* Firefox */
   -webkit-transform:rotate(270deg); /* Safari and Chrome */
@@ -110,7 +90,22 @@ li {
   -webkit-transform:rotate(270deg); /* Safari and Chrome */
   -o-transform:rotate(270deg); /* Opera */
 }
-#conabo{
-    top: 30em;
-}
 
+@media (max-width: 576px) { 
+    h1{
+       position: static;
+       
+    }
+    #ken{
+        display: inline-flex;
+        left: 100px;
+         
+       width: 200px;
+    height: 500px;
+
+  -ms-transform:rotate(360deg); /* IE 9 */
+  -moz-transform:rotate(360deg); /* Firefox */
+  -webkit-transform:rotate(360deg); /* Safari and Chrome */
+  -o-transform:rotate(360deg);   
+    }
+}
