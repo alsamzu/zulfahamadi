@@ -4,25 +4,19 @@ body{
 
 h1{
     color: white;
-    position: relative;
-    text-align: center;
-    font-size: 30vmin;
-    top: 5px;
+    position: static;
+    text-align: right;
+    font-size: 16vw;
+    top: 20px;
     font-family: 'Anton', sans-serif;
     font-family: 'Bree Serif', serif;
-    left: 150px;
+    
     
 }
-#hel{
-    top: 15rem;
-    
-}
-#stop{
+
+.color{
     color:deeppink;
-    font-size: 10rem;
     
-    top: 3rem;
-    left: 15rem;
 }
 h2{
     color: white;
@@ -119,29 +113,4 @@ li {
 #conabo{
     top: 30em;
 }
-@media only screen and (max-width: 500px) {
-    h1 {
-        color: lightblue;
-        
-        
-        
-    position: relative;
-    text-align: center;
-    font-size: 30vmin;
-    top: 5px;
-    font-family: 'Anton', sans-serif;
-    font-family: 'Bree Serif', serif;
-    left: 150px;
-    }
-    #ken{
-    color: white;
-    width:150px;
-    height:200px;
-    bottom: -400px;
-  -ms-transform:rotate(360deg); /* IE 9 */
-  -moz-transform:rotate(360deg); /* Firefox */
-  -webkit-transform:rotate(360deg); /* Safari and Chrome */
-  -o-transform:rotate(360deg); /* Opera */
-   
-}
-}
+
