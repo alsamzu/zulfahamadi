@@ -46,7 +46,8 @@ a:hover#menu-icon {
 
 }
 ul {
-    list-style-type:none;
+    list-style: none;
+    
     display: inline;
     position: fixed;
     
@@ -90,8 +91,24 @@ li {
   -webkit-transform:rotate(270deg); /* Safari and Chrome */
   -o-transform:rotate(270deg); /* Opera */
 }
+#menu-icon {
 
-@media (max-width: 576px) { 
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: #ff6699 url(../img/menu-icon.png) center;
+
+}
+
+a:hover#menu-icon {
+
+	background-color: #fff;
+	border-radius: 4px 4px 0 0;
+
+}
+
+
+@media (max-width: 575px) { 
     h1{
        position: static;
        
@@ -108,4 +125,43 @@ li {
   -webkit-transform:rotate(360deg); /* Safari and Chrome */
   -o-transform:rotate(360deg);   
     }
+   #menu-icon {
+
+		display:inline-block;
+
+	}
+
+	nav ul, nav:active ul { 
+
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 5px solid #444;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+
+	}
+
+	nav li {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+
+	}
+
+	nav:hover ul {
+
+		display: block;
+
+    }
+
+    
 }
+@media (max-width:767px){}
+@media (max-width:991px){}
+@media (max-width:1199px){}
