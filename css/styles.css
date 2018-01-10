@@ -25,7 +25,7 @@ a {
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.2vw;
 
 }
 a:hover {
@@ -63,7 +63,7 @@ li {
   height: 100%;
   width: 100%;
   display: flex;
-    position: fixed;
+    /*position: fixed;*/
   align-items: center;
   justify-content: center;
     }
@@ -72,9 +72,10 @@ li {
     /*top:25em;*/
     /*transform: rotate3d(1, 2, -1, 200deg);*/
     /*transform: rotate(90deg);*/
-    width:130px;
-    height:300px;
+    width:15%;
+    height:10%;
     bottom: -300px;
+    line-height: 12px;
   -ms-transform:rotate(270deg); /* IE 9 */
   -moz-transform:rotate(270deg); /* Firefox */
   -webkit-transform:rotate(270deg); /* Safari and Chrome */
@@ -151,6 +152,7 @@ a:hover#menu-icon {
 		width: 100%;
 		padding: 10px 0;
 		margin: 0;
+            z-index: 99;
 
 	}
 
