@@ -1,169 +1,99 @@
-body{
+body {
     background-color: black;
+    line-height: 1;
 }
 
-h1{
-    color: white;
-    position: relative;
-    text-align: right;
-    font-size: 16vw;
-    top: 20px;
-    font-family: 'Anton', sans-serif;
-    font-family: 'Bree Serif', serif;
-    }
-
-.color{
-    color:deeppink;
-    
-}
-p{
-    color: white;
-}
-
-a {
-
-	color: white;
-	text-decoration: none;
-	font-weight: bold;
-    font-size: 1.2vw;
-
-}
-a:hover {
-
-	color:deeppink;
-
-}
-nav {
-
-	float: right;
-	padding: 10px;	
-
-}
-a:hover#menu-icon {
-
-	background-color: #fff;
-	border-radius: 4px 4px 0 0;
-
-}
-ul {
-    list-style: none;
-    
-    display: inline;
-    position: fixed;
-    
-    }
-li {
-
-	display: inline-block;
-	float: left;
-	padding: 10px
-
-}
 .container {
-  height: 100%;
-  width: 100%;
-  display: flex;
-    /*position: fixed;*/
-  align-items: center;
-  justify-content: center;
-    }
-#ken{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
     color: white;
-    /*top:25em;*/
-    /*transform: rotate3d(1, 2, -1, 200deg);*/
-    /*transform: rotate(90deg);*/
-    width:15%;
-    height:10%;
-    bottom: -300px;
-    line-height: 12px;
-  -ms-transform:rotate(270deg); /* IE 9 */
-  -moz-transform:rotate(270deg); /* Firefox */
-  -webkit-transform:rotate(270deg); /* Safari and Chrome */
-  -o-transform:rotate(270deg); /* Opera */
-   
-}
-#na{
-     width:-130px;
-    height:200px;
-    bottom: -300px;
-    left: 350px;
-  -ms-transform:rotate(270deg); /* IE 9 */
-  -moz-transform:rotate(270deg); /* Firefox */
-  -webkit-transform:rotate(270deg); /* Safari and Chrome */
-  -o-transform:rotate(270deg); /* Opera */
-}
-#menu-icon {
+    /*    position: relative;*/
+    /*    text-align: right;*/
+    /*    font-size: 250px;*/
+/*    float: right;*/
+    top: 10%;
+    font-size: 165px;
+    line-height: 170px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: relative;
 
-	display: hidden;
-	width: 40px;
-	height: 40px;
-	background: #ff6699 url(../img/menu-icon.png) center;
+    font-family: 'Bree Serif', serif;
 
+}
+
+
+p{color: white;}
+
+
+.color {
+    color: deeppink; }
+
+
+
+
+
+
+
+
+}
+
+
+#ken {
+    color: white;
+    width: 15%;
+    height: 10%;
+    bottom: -300px;
+    line-height: 28px;
+    -ms-transform: rotate(270deg);
+    /* IE 9 */
+    -moz-transform: rotate(270deg);
+    /* Firefox */
+    -webkit-transform: rotate(270deg);
+    /* Safari and Chrome */
+    -o-transform: rotate(270deg);
+    /* Opera */
 }
 
 a:hover#menu-icon {
 
-	background-color: #fff;
-	border-radius: 4px 4px 0 0;
+    background-color: #fff;
+    border-radius: 4px 4px 0 0;
 
 }
 
-
-@media (max-width: 575px) { 
-    h1{
-       position: static;
+@media (max-width: 575px) {
+    h1 {
+        position: fixed;
+        font-size: 70px;
+        line-height: 65px;
+        left: 40px;
        
     }
-    #ken{
+    #ken {
         display: inline-flex;
-        left: 100px;
-         
-       width: 200px;
-    height: 500px;
+        left: 350px;
+        width: 1000px;
+        height: 100px;
+        top: 100px;
+        -ms-transform: rotate(360deg);
+        /* IE 9 */
+        -moz-transform: rotate(360deg);
+        /* Firefox */
+        -webkit-transform: rotate(360deg);
+        /* Safari and Chrome */
+        -o-transform: rotate(360deg);
+    }}
 
-  -ms-transform:rotate(360deg); /* IE 9 */
-  -moz-transform:rotate(360deg); /* Firefox */
-  -webkit-transform:rotate(360deg); /* Safari and Chrome */
-  -o-transform:rotate(360deg);   
-    }
-   #menu-icon {
+@media (max-width:767px) {}
 
-		display:inline-block;
+@media (max-width:991px) {}
 
-	}
-
-	nav ul, nav:active ul { 
-
-		display: none;
-		position: absolute;
-		padding: 20px;
-		background: #fff;
-		border: 5px solid #444;
-		right: 20px;
-		top: 60px;
-		width: 50%;
-		border-radius: 4px 0 4px 4px;
-
-	}
-
-	nav li {
-
-		text-align: center;
-		width: 100%;
-		padding: 10px 0;
-		margin: 0;
-            z-index: 99;
-
-	}
-
-	nav:hover ul {
-
-		display: block;
-
-    }
-
-    
-}
-@media (max-width:767px){}
-@media (max-width:991px){}
-@media (max-width:1199px){}
+@media (max-width:1199px) {}
