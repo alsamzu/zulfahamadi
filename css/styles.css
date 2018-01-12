@@ -17,7 +17,7 @@ h1 {
     /*    position: relative;*/
     /*    text-align: right;*/
     /*    font-size: 250px;*/
-/*    float: right;*/
+    /*    float: right;*/
     top: 10%;
     font-size: 165px;
     line-height: 170px;
@@ -30,11 +30,14 @@ h1 {
 }
 
 
-p{color: white;}
+p {
+    color: white;
+}
 
 
 .color {
-    color: deeppink; }
+    color: deeppink;
+}
 
 
 #ken {
@@ -66,7 +69,7 @@ a:hover#menu-icon {
         font-size: 70px;
         line-height: 65px;
         left: 40px;
-       
+
     }
     #ken {
         display: inline-flex;
@@ -81,9 +84,33 @@ a:hover#menu-icon {
         -webkit-transform: rotate(360deg);
         /* Safari and Chrome */
         -o-transform: rotate(360deg);
-    }}
+    }
+}
 
-@media (max-width:767px) {}
+@media (max-width:767px) {
+     h1 {
+        position: fixed;
+        font-size: 80px;
+        line-height: 70px;
+        left: 40px;
+
+    }
+     #ken {
+
+        display: inline-flex;
+        left: 430px;
+        width: 1200px;
+        height: 100px;
+        top: 90px;
+        -ms-transform: rotate(360deg);
+        /* IE 9 */
+        -moz-transform: rotate(360deg);
+        /* Firefox */
+        -webkit-transform: rotate(360deg);
+        /* Safari and Chrome */
+        -o-transform: rotate(360deg);
+    }
+}
 
 @media (max-width:991px) {}
 
