@@ -3,14 +3,7 @@ body {
 
 }
 
-.container {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    position: fixed;
-    align-items: center;
-    justify-content: center;
-}
+
 
 h1 {
     color: white;
@@ -23,7 +16,7 @@ h1 {
     line-height: 170px;
     font-weight: 700;
     letter-spacing: 2px;
-    position: relative;
+   position: relative;
 
     font-family: 'Bree Serif', serif;
 
@@ -41,8 +34,9 @@ p {
 
 
 #ken {
+    
     color: white;
-    width: 15%;
+   width: 15%;
     height: 10%;
     bottom: -300px;
     line-height: 28px;
@@ -61,7 +55,7 @@ p {
     width: 15%;
     height: 10%;
     left: 200px;
-    bottom: -100px;
+    top: 180px;
     line-height: 28px;
     -ms-transform: rotate(270deg);
     /* IE 9 */
@@ -110,20 +104,20 @@ li {
 
 @media (max-width: 575px) {
     h1 {
-        position: fixed;
+/*        position: fixed;*/
         font-size: 70px;
         line-height: 60px;
         left: 40px;
 
-        
     }
     #ken {
-        display: inline-flex;
-        left: 350px;
-        width: 900px;
-        height: 250px;
-        top: 100px;
-
+  display: inline-flex;
+/*   left: 50px;*/
+        width: 90px;
+        height: 25px;
+      top: 900px;
+position:absolute;
+        
         -ms-transform: rotate(360deg);
         /* IE 9 */
         -moz-transform: rotate(360deg);
@@ -132,10 +126,13 @@ li {
         /* Safari and Chrome */
         -o-transform: rotate(360deg);
     }
+        
+    
     #kena{
-        display: inline-flex;
-        left: 550px;
-        width: 900px;
+     display: inline-flex;
+/*        position:fixed;*/
+        left: 55px;
+        width: 90px;
 /*        height: 100px;*/
       bottom: 330px;
 
@@ -151,6 +148,7 @@ li {
 
 @media (max-width:767px) {
     h1 {
+       
         position: fixed;
         font-size: 90px;
         line-height: 70px;
