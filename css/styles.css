@@ -4,6 +4,9 @@ body {
     color: white;
 
 }
+*{
+    box-sizing: border-box;
+}
 
 #grid{
     position: fixed;
@@ -27,6 +30,40 @@ body {
 .container {
     width: 750px;
 }
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+div{
+display: block;
+}
+.col-xs-3{
+    width: 25%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+#grid .col-xs-3 .grid-line.hey{
+height: 100vh;
+}
+#grid .col-xs-3 .grid-line {
+border-left: 1px solid #000;
+}
+#lastcol{
+    border-right: 1px solid #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 h1 {
 /*    color: white;*/
