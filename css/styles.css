@@ -18,18 +18,31 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-@media (min-width: 1200px)
-.container {
+@media (min-width: 1200px){
+  .container {
     width: 1170px;
 }
-@media (min-width: 992px)
-.container {
+    #page-content{
+    margin-bottom: -300px;
+}
+}
+
+
+@media (min-width: 992px){
+    .container {
     width: 970px;
 }
-@media (min-width: 768px)
-.container {
+    #page-content{
+        margin-bottom: 200px;
+    }
+}
+
+@media (min-width: 768px){
+    .container {
     width: 750px;
 }
+}
+
 .row{
     margin-left: 0px;
     margin-right: 0px;
