@@ -1,38 +1,47 @@
 body {
-    background-color: black;
+    background-color: #1A1A1A;
+    line-height: 1;
+    color: white;
 
 }
 
 
 
 h1 {
-    color: white;
+/*    color: white;*/
     /*    position: relative;*/
     /*    text-align: right;*/
     /*    font-size: 250px;*/
     /*    float: right;*/
+/*
     top: 10%;
     font-size: 165px;
     line-height: 170px;
     font-weight: 700;
     letter-spacing: 2px;
    position: relative;
+*/
 
-    font-family: 'Bree Serif', serif;
+/*    font-family: 'Bree Serif', serif;*/
 
 }
 
 
+/*
 p {
     color: white;
 }
+*/
 
 
+/*
 .color {
     color: deeppink;
 }
+*/
 
 
+/*
 #ken {
     
     color: white;
@@ -40,15 +49,20 @@ p {
     height: 10%;
     bottom: -300px;
     line-height: 28px;
+*/
+/*
     -ms-transform: rotate(270deg);
-    /* IE 9 */
+     IE 9
     -moz-transform: rotate(270deg);
+*/
     /* Firefox */
+/*
     -webkit-transform: rotate(270deg);
-    /* Safari and Chrome */
+     Safari and Chrome
     -o-transform: rotate(270deg);
+*/
     /* Opera */
-}
+/*}*/
 
 #kena {
     color: white;
