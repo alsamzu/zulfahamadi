@@ -5,7 +5,28 @@ body {
 
 }
 
-
+#grid{
+    position: fixed;
+    width: 100%;
+}
+.container{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 1200px)
+.container {
+    width: 1170px;
+}
+@media (min-width: 992px)
+.container {
+    width: 970px;
+}
+@media (min-width: 768px)
+.container {
+    width: 750px;
+}
 
 h1 {
 /*    color: white;*/
