@@ -1,11 +1,12 @@
 body {
-    background-color: #1A1A1A;
+    background-color: green;
+/*    background-color: #1A1A1A;*/
     line-height: 1;
     color: white;
 
 }
 *{
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 #grid{
@@ -13,10 +14,12 @@ body {
     width: 100%;
 }
 .container{
+
     padding-left: 50px;
     padding-right: 50px;
     margin-left: auto;
     margin-right: auto;
+
 }
 @media (min-width: 1200px){
   .container {
