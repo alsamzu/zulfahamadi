@@ -49,7 +49,12 @@ a:hover, a:focus { color: #666c7b; }
 .demo-2 a:hover, .demo-2 a:focus { color: #fff; }
 
 .demo-3 {
-	background: #e8e8ec;
+    background: url("/img/wil-stewart-23388-unsplash.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+/*	background: #e8e8ec;*/
 	color: #333;
 	height: 100vh;
 	font-family: 'Roboto Condensed', sans-serif;
