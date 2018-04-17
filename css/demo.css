@@ -40,27 +40,16 @@ a {
 a:hover, a:focus { color: #666c7b; }
 
 /* Individual demo styles */
-.demo-2 {
-	background: #396ad1;
-	color: #fff;
-}
 
-.demo-2 a {	color: #f3ef8b; }
-.demo-2 a:hover, .demo-2 a:focus { color: #fff; }
-
-.demo-3 {
-    background: url("/img/wil-stewart-23388-unsplash.jpg")no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.bodyMain {
+    background: #212121;
 /*	background: #e8e8ec;*/
 	color: #333;
 	height: 100vh;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-.demo-3::after {
+.bodyMain::after {
 	content: '';
 	pointer-events: none;
 	position: absolute;
