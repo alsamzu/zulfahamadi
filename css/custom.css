@@ -127,12 +127,13 @@ body {
 /*	font-family: 'Kaushan Script', cusrive;*/
     font-family: 'Playfair Display', serif;
 	text-transform: none;
-	font-size: 10vw;
+	font-size: 12vw;
 background: -webkit-linear-gradient(#84ffff,#18ffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 	margin: 0;
 	padding: 0 0 0.35em;
+
 }
 .codrops-icon {
 	display: block;
