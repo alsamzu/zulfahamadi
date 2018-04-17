@@ -18,11 +18,11 @@
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 		<!--[if IE]>
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]--><script>document.documentElement.className = 'js';</script>
+		<![endif]-->
 
   </head>
 
-<body class="bodyMain">
+<body  class="bodyMain">
 		<svg class="hidden">
 			<defs>
 				<symbol id="icon-logo" viewBox="0 0 24 24">
@@ -42,7 +42,8 @@
 			</div>
 			<header class="codrops-header">
 
-				<h1 class="codrops-header__title">Zulfa<br>Hamadi</h1>
+				<h1 class="codrops-header__title"><span style="font-weight: lighter">Zulfa</span><br><span style="font-weight:1000">Hamadi</span></h1>
+				<h2 id="front">Front-end developer based in Kenya</h2>
 
 			</header>
 		</main>
@@ -53,14 +54,14 @@
 			var lineMaker = new LineMaker({
 				position: 'fixed',
 				lines: [
-					{top: '15%', left: 0, width: '100%', height: 2, color: '#ddd', hidden: true},
-					{top: '85%', left: 0, width: '100%', height: 2, color: '#ddd', hidden: true},
-					{top: 0, left: '90%', width: 2, height: '100%', color: '#ddd', hidden: true},
-					{top: 0, left: '10%', width: 2, height: '100%', color: '#ddd', hidden: true},
-					{top: '15%', left: 0, width: '100%', height: 2, color: '#000', hidden: true, animation: { duration: 1000, easing: 'easeInOutExpo', delay: 0, direction: 'LeftRight' }},
-					{top: '85%', left: 0, width: '100%', height: 2, color: '#000', hidden: true, animation: { duration: 1000, easing: 'easeInOutExpo', delay: 100, direction: 'RightLeft' }},
-					{top: 0, left: '90%', width: 2, height: '100%', color: '#000', hidden: true, animation: { duration: 1000, easing: 'easeInOutExpo', delay: 200, direction: 'BottomTop' }},
-					{top: 0, left: '10%', width: 2, height: '100%', color: '#000', hidden: true, animation: { duration: 1000, easing: 'easeInOutExpo', delay: 300, direction: 'TopBottom' }}
+					{top: '15%', left: 0, width: '100%', height: 2, color: '#757575', hidden: true},
+					{top: '85%', left: 0, width: '100%', height: 2, color: '#757575', hidden: true},
+					{top: 0, left: '90%', width: 2, height: '100%', color: '#757575', hidden: true},
+					{top: 0, left: '10%', width: 2, height: '100%', color: '#757575', hidden: true},
+					{top: '15%', left: 0, width: '100%', height: 2, color: '#00e5ff', hidden: true, animation: { duration: 1000, easing: 'easeInOutExpo', delay: 0, direction: 'LeftRight' }},
+					{top: '85%', left: 0, width: '100%', height: 2, color: '#00e5ff', hidden: true, animation: { duration: 1000, easing: 'easeInOutExpo', delay: 100, direction: 'RightLeft' }},
+					{top: 0, left: '90%', width: 2, height: '100%', color: '#00e5ff', hidden: true, animation: { duration: 1000, easing: 'easeInOutExpo', delay: 200, direction: 'BottomTop' }},
+					{top: 0, left: '10%', width: 2, height: '100%', color: '#00e5ff', hidden: true, animation: { duration: 1000, easing: 'easeInOutExpo', delay: 300, direction: 'TopBottom' }}
 				]
 			});
 
@@ -85,11 +86,11 @@
 				lineMaker.animateLineOut(6);
 				lineMaker.animateLineOut(7);
 			}, 2000);
-//            setTimeout(function() {
-//				lineMaker.createLine({top: '50vh', left: '21vw', width: '60vw', height: 16, color: '#E91E63', hidden: true, animation: { duration: 1000, easing: 'easeInOutExpo', delay: 300, direction: 'LeftRight' }});
-//
-//				lineMaker.animateLineIn(8);
-//			}, 2000);
+            setTimeout(function() {
+				lineMaker.createLine({top: '73vh', left: '18vw', width: '40vw', height: 3, color: '#ff4081', hidden: true, animation: { duration: 1000, easing: 'easeInOutExpo', delay: 250, direction: 'LeftRight' }});
+
+				lineMaker.animateLineIn(8);
+			}, 2000);
 
 
 		})();

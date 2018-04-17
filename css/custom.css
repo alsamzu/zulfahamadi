@@ -8,6 +8,7 @@ body {
 	background: #f8f8f8;
 	font-weight: 400;
 	overflow: auto;
+
 }
 
 @-webkit-keyframes fadeAllIn {
@@ -31,6 +32,7 @@ body {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
+/*
 .bodyMain::after {
 	content: '';
 	pointer-events: none;
@@ -41,6 +43,7 @@ body {
 	height: 100%;
 	border: 20px solid #fff;
 }
+*/
 
 /* Helpers */
 .hidden {
@@ -50,8 +53,6 @@ body {
 	height: 0;
 	pointer-events: none;
 }
-
-/* Buttons */
 
 /* Icons */
 .icon {
@@ -64,26 +65,18 @@ body {
 
 /* Header */
 .codrops-header {
-	margin: 12vh 0 0 10%;
+	margin: 2vh 0 0 10%;
 	padding: 2em;
 	position: relative;
 }
-
-.actions {
-	margin: 1em 0 0 0;
-	z-index: 100;
-	position: relative;
-}
-
-
-
 .bodyMain .codrops-header {
 	text-align: left;
 	position: absolute;
 	width: calc(80vw - 5px);
-	top: 15vh;
-	left: 10vw;
-	height: calc(70vh - 5px);
+	top: 1vh;
+	left: 15vw;
+/*	height: calc(70vh - 5px);*/
+/*    height: 100vh;*/
 	margin: 5px 0 0 5px;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -103,6 +96,7 @@ body {
 	animation: fadeIn 2s ease-out forwards;
 }
 
+/*
 @-webkit-keyframes fadeIn {
 	0%, 40% { opacity: 0; }
 	85%, 100% { opacity: 1; -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0); }
@@ -112,6 +106,7 @@ body {
 	0%, 40% { opacity: 0; }
 	85%, 100% { opacity: 1; -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0); }
 }
+*/
 
 
 .codrops-header__title {
@@ -120,17 +115,20 @@ body {
 	font-size: 9vw;
 	text-transform: uppercase;
 	line-height: 1;
-	font-weight: normal;
+/*	font-weight: normal;*/
 }
 
-
+#front{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    line-height: 0;
+}
 .bodyMain .codrops-header__title {
 /*	font-family: 'Kaushan Script', cusrive;*/
     font-family: 'Playfair Display', serif;
 	text-transform: none;
-	font-size: 12vw;
-/*	color: linear-gradient() ;*/
-    background: -webkit-linear-gradient(#84ffff,#18ffff);
+	font-size: 10vw;
+background: -webkit-linear-gradient(#84ffff,#18ffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 	margin: 0;
@@ -166,14 +164,16 @@ body {
 	-webkit-justify-content: space-between;
 	-ms-flex-pack: space-between;
 	justify-content: space-between;
-	padding: 20px 20px 0 20px;
+/*	padding: 20px 20px 0 20px;*/
 	height: 15vh;
 }
 
 .dummy__icon {
-	width: calc(10vw - 20px);
-	color: #b0b0b1;
+/*	width: calc(10vw - 20px);*/
+    width: 10vw;
+	color: #00e5ff;
 }
+
 
 @media screen and (max-width: 50em) {
 	.codrops-header {
@@ -185,9 +185,11 @@ body {
 	}
 
 	.dummy {
-		padding: 10px 15% 0 15%;
+/*		padding: 10px 15% 0 15%;*/
+        padding: 1em;
 	}
 	.dummy__icon {
-		width: calc(10vw - 10px);
+/*		width: calc(10vw - 10px);*/
+        width: 20vw;
 	}
 }
