@@ -114,14 +114,14 @@ body {
 	padding: 0 0 0.15em 0;
 	font-size: 9vw;
 	text-transform: uppercase;
-	line-height: 1;
+	line-height: 0.9;
 /*	font-weight: normal;*/
 }
 
 #front{
     color: white;
     font-family: 'Playfair Display', serif;
-    line-height: 0;
+    line-height: 1;
 }
 .bodyMain .codrops-header__title {
 /*	font-family: 'Kaushan Script', cusrive;*/
