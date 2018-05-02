@@ -123,7 +123,10 @@ body {
 #front{
     color: white;
     font-family: 'Playfair Display', serif;
-    line-height: 1;
+    line-height: 1.5;
+     border-bottom: 3px solid #ff4081;
+
+
 }
 .bodyMain .codrops-header__title {
 /*	font-family: 'Kaushan Script', cusrive;*/
@@ -195,4 +198,7 @@ background: -webkit-linear-gradient(#84ffff,#18ffff);
 /*		width: calc(10vw - 10px);*/
         width: 20vw;
 	}
+    #front{
+        font-size: 3vw;
+    }
 }
