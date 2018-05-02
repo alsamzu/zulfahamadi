@@ -29,7 +29,8 @@ body {
 /*	background: #e8e8ec;*/
 	color: #333;
 	height: 100vh;
-	font-family: 'Roboto Condensed', sans-serif;
+/*	font-family: 'Roboto Condensed', sans-serif;*/
+    font-family: 'Lato', sans-serif;
 }
 
 /*
@@ -94,6 +95,7 @@ body {
 	transform: translate3d(0,100px,0);
 	-webkit-animation: fadeIn 2s ease-out forwards;
 	animation: fadeIn 2s ease-out forwards;
+    font-family: 'Lato', sans-serif;
 }
 
 /*
