@@ -1,7 +1,8 @@
 *, *::after, *::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body {
-	font-family: 'Roboto Mono', monospace;
+/*	font-family: 'Roboto Mono', monospace;*/
+    font-family: 'Lato', sans-serif;
 	color: #666c7b;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -22,7 +23,7 @@ body {
 }
 
 
-/* Individual demo styles */
+
 
 .bodyMain {
     background: #212121;
@@ -115,7 +116,7 @@ body {
 	margin: 0;
 	padding: 0 0 0.15em 0;
 	font-size: 9vw;
-	text-transform: uppercase;
+/*	text-transform: uppercase;*/
 	line-height: 0.9;
 /*	font-weight: normal;*/
 }
@@ -199,7 +200,8 @@ background: -webkit-linear-gradient(#84ffff,#18ffff);
         width: 20vw;
 	}
     #front{
-        font-size: 3vw;
+        font-size: 5vw;
+        border-bottom-color: #212121;
     }
 }
 @media (max-width: 575.98px){}
