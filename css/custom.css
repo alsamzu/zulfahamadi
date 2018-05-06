@@ -160,7 +160,7 @@ background: -webkit-linear-gradient(#84ffff,#18ffff);
 	padding: 3em 0;
 	position: relative;
 }
-.dummy {
+.one {
 	width: 100%;
 	display: -webkit-flex;
 	display: -ms-flex;
@@ -175,14 +175,14 @@ background: -webkit-linear-gradient(#84ffff,#18ffff);
 	height: 15vh;
 }
 
-.dummy__icon {
+.one__icon {
 /*	width: calc(10vw - 20px);*/
     width: 10vw;
 	color: #00e5ff;
 }
 
 
-@media screen and (max-width: 50em) {
+@media screen and (max-width: 576px) {
 	.codrops-header {
 		padding: 1em;
 
@@ -197,11 +197,11 @@ background: -webkit-linear-gradient(#84ffff,#18ffff);
 		border-width: 10px;
 	}
 
-	.dummy {
+	.one {
 /*		padding: 10px 15% 0 15%;*/
         padding: 1em;
 	}
-	.dummy__icon {
+	.one__icon {
 /*		width: calc(10vw - 10px);*/
         width: 20vw;
 	}
@@ -211,4 +211,4 @@ background: -webkit-linear-gradient(#84ffff,#18ffff);
         margin-top: 90px;
     }
 }
-@media (max-width: 575.98px){}
+
