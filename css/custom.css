@@ -185,7 +185,13 @@ background: -webkit-linear-gradient(#84ffff,#18ffff);
 @media screen and (max-width: 50em) {
 	.codrops-header {
 		padding: 1em;
+
 	}
+    .codrops-header__title{
+        position: relative;
+        top: 80px;
+    }
+
 
 	.bodyMain::after {
 		border-width: 10px;
@@ -202,6 +208,7 @@ background: -webkit-linear-gradient(#84ffff,#18ffff);
     #front{
         font-size: 5vw;
         border-bottom-color: #212121;
+        margin-top: 90px;
     }
 }
 @media (max-width: 575.98px){}
