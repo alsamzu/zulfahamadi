@@ -66,12 +66,12 @@ body {
 }
 
 /* Header */
-.codrops-header {
+.main-header {
 	margin: 2vh 0 0 10%;
 	padding: 2em;
 	position: relative;
 }
-.bodyMain .codrops-header {
+.bodyMain .main-header {
 	text-align: left;
 	position: absolute;
 	width: calc(80vw - 5px);
@@ -112,7 +112,7 @@ body {
 */
 
 
-.codrops-header__title {
+.main-header__title {
 	margin: 0;
 	padding: 0 0 0.15em 0;
 	font-size: 9vw;
@@ -129,7 +129,7 @@ body {
 
 
 }
-.bodyMain .codrops-header__title {
+.bodyMain .main-header__title {
 /*	font-family: 'Kaushan Script', cusrive;*/
     font-family: 'Playfair Display', serif;
 	text-transform: none;
@@ -141,6 +141,7 @@ background: -webkit-linear-gradient(#84ffff,#18ffff);
 	padding: 0 0 0.35em;
 
 }
+/*
 .codrops-icon {
 	display: block;
 	padding: 0.25em 1.5em 0.25em 0;
@@ -149,6 +150,7 @@ background: -webkit-linear-gradient(#84ffff,#18ffff);
 .codrops-icon:last-child {
 	padding-right: 0;
 }
+*/
 
 
 .bodyMain {
@@ -183,11 +185,11 @@ background: -webkit-linear-gradient(#84ffff,#18ffff);
 
 
 @media screen and (max-width: 576px) {
-	.codrops-header {
+	.main-header {
 		padding: 1em;
 
 	}
-    .codrops-header__title{
+    .main-header__title{
         position: relative;
         top: 80px;
     }
@@ -203,7 +205,7 @@ background: -webkit-linear-gradient(#84ffff,#18ffff);
 	}
 	.one__icon {
 /*		width: calc(10vw - 10px);*/
-        width: 20vw;
+        width: 23vw;
 	}
     #front{
         font-size: 5vw;
