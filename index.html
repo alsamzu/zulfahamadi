@@ -19,6 +19,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto+Condensed" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 		<!--[if IE]>
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -26,6 +27,7 @@
   </head>
 
 <body  class="bodyMain">
+<!--
 		<svg class="hidden">
 			<defs>
 				<symbol id="icon-logo" viewBox="0 0 24 24">
@@ -38,17 +40,35 @@
 				</symbol>
 			</defs>
 		</svg>
+-->
 		<main>
+<!--
 			<div class="one">
                 <div class="one__icon"><svg class="icon icon--logo"><use xlink:href="#icon-logo"></use></svg></div>
                     <div class="one__icon"><svg class="icon icon--menu"><use xlink:href="#icon-menu"></use></svg></div>
 			</div>
+--><nav class="navbar navbar-expand-xs navbar-dark bg-dark" id="nav">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">About</a>
+      <a class="nav-item nav-link" href="#">Portfolio</a>
+      <a class="nav-item nav-link " href="#">Contacts</a>
+    </div>
+  </div>
+</nav>
+
 			<header class="main-header">
 
 				<h1 class="main-header__title"><span style="font-weight: lighter">Zulfa</span><br><span style="font-weight:1000">Hamadi</span></h1>
 				<h6 id="front"> Web developer focused on crafting clean and user-friendly experiences :-)</h6>
 
 			</header>
+
 		</main>
 		<script src="js/anime.min.js"></script>
 		<script src="js/main.js"></script>
