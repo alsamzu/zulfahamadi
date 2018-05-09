@@ -15,6 +15,9 @@ body {
     color: #00e5ff;
     font-weight: bold;
 }
+#nam:hover{
+    color: #ff4081;
+}
 /*
 @-webkit-keyframes fadeAllIn {
 	0%, 50% { opacity: 0; -webkit-transform: translate3d(-10px,0,0); transform: translate3d(-10px,0,0); }
