@@ -1,5 +1,5 @@
 # zulfahamadi
-A simple single page portfolio website that has some of my recent projects.
+A single page portfolio website that has some of my recent projects.
 
 ### Technology used
 the technology used in this project was:
